@@ -18,4 +18,4 @@ RUN opam init -y \
     && which ocaml\
     && ocaml -version
 
-RUN opam install -y dune ocamlfind
+RUN opam install -y dune ocamlfind lwt
