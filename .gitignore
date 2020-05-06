@@ -1,0 +1,6 @@
+*.cmx 
+*.o
+*.cmi
+*.cmo
+*.db
+_build

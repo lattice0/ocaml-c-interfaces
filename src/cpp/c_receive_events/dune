@@ -1,0 +1,3 @@
+(executable
+ (name event_emitter)
+ (libraries lwt.unix))
