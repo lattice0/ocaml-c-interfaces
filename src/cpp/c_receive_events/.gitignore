@@ -3,4 +3,5 @@
 *.cmi
 *.cmo
 *.db
+*.a
 _build
