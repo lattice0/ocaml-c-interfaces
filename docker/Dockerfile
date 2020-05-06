@@ -16,5 +16,6 @@ RUN opam init -y \
     && opam switch create 4.10.0\
     && eval `opam env`\
     && which ocaml\
-    && ocaml -version\
-    && opam install dune ocamlfind
+    && ocaml -version
+
+RUN opam install -y dune ocamlfind
